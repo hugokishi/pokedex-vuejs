@@ -1,12 +1,12 @@
 const express = require('express');
-const serverStatic = require('server-static');
 const path = require('path');
+const serveStatic = require('serve-static');
 
-const app = express();
+app = express();
 
-app.use('/', serverStatic(path.join(__dirname, '/dist')));
+app.use('/', serveStatic(path.join(__dirname + "/dist")));
 
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 5000;
 app.listen(port);
 
-console.log('Listening on port: ' + port);
+console.log('server started '+ port);
