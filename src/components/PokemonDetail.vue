@@ -25,15 +25,14 @@
             :key="'value'+index">
             {{ value.type.name }}
           </div>
+        
         </div>
-        <h3>Habilidades</h3>
-        <div class="abilities">
-          <div class="ability" 
-            v-for="(value, index) in pokemon.abilities"
-            :key="'value'+index">
-            {{ value.ability.name }}
-          </div>
+            <h3>Habilidades</h3>
+            <div class="abilities">
+              <div class="ability" v-for="(value, index) in pokemon.abilities" :key="'value'+index"> {{ value.ability.name }}
+            </div>
         </div>
+        
       </div>
       <h2 v-else>Pokemon não encontrado</h2>
       <button class="close" @click="closeDetail">Fechar</button>
