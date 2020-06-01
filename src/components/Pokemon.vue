@@ -59,4 +59,11 @@ export default {
   h1{ 
     color: #efefef; 
   }
+
+  
+  @media screen and (max-width: 480px) {
+    .container{
+      background: url('../assets/pokeback.png') center center no-repeat fixed; 
+    }
+}
 </style>

@@ -35,8 +35,8 @@
           </div>
         </div>
       </div>
-      <h2 v-else>The pokemon was not found</h2>
-      <button class="close" @click="closeDetail">close</button>
+      <h2 v-else>Pokemon não encontrado</h2>
+      <button class="close" @click="closeDetail">Fechar</button>
     </div>
     <i v-else class="fas fa-spinner fa-spin"></i>
   </div>
@@ -177,7 +177,7 @@
       .close {
         outline: none;
         border: none;
-        border-radius: 5px;
+        border-radius: 50px;
         background-color: #333;
         color: #efefef;
         padding: 10px 20px;

@@ -80,7 +80,7 @@
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     grid-gap: 10px;
     width: 100%;
-    max-width: 1360px;
+    max-width: 1700px;
 
     article {
       height: 150px;
@@ -91,7 +91,6 @@
       cursor: pointer;
       box-shadow: 0 15px 30px rgba(0,0,0,.2),
                   0 10px 10px rgba(0,0,0,.2);
-
       h3 {
         margin: 0;
       }
